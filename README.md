@@ -4,7 +4,7 @@ Criar uma pasta onde serão inseridos todos os arquivos.
 
 Na pasta, inicar um venv:
 
-    python -m venv nome_do_venv
+    python -m venv venv
 
     nome_do_venv\Scripts\activate
 
@@ -52,7 +52,6 @@ Se ele puder ser acessado por algum cliente, deve ser incluido nas urls.py
 
 Os arquivos estaticos (Static) é onde ficam os templates de página e ...?
 
-
 Para acessar o 'meu site'.com.br/admin
 
 deve criar o usuario e senha:
@@ -69,9 +68,7 @@ senha
 
 senha
 
-confirmação 
-
-
+confirmação
 
 rodar para atualizar o banco de dados
 

@@ -3,10 +3,10 @@ from django.http import HttpResponse
 from .models import Pessoa
 
 
-def ver_produto(request):
+def cadastrar_pessoa(request):
     if request.method == "GET":
         nome = "Leoanrdo Worm Vieira"
-        return render(request, 'ver_produto.html', {'nome': nome})
+        return render(request, 'cadastrar_pessoa.html', {'nome': nome})
     elif request.method == "POST":
         nome = request.POST.get('nome')
         idade = request.POST.get('idade')
